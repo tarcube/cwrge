@@ -187,9 +187,9 @@ async function loadData() {
   load.textContent = "Loading map data...";
 
   try {
-    const bRes = await fetch("./data/buildings.geojson").catch(() => ({ ok: false }));
-    const pRes = await fetch("./data/paths.geojson").catch(() => ({ ok: false }));
-    const ctRes = await fetch("./data/centroids.geojson").catch(() => ({ ok: false }));
+    const bRes = await fetch("./data/Buildings.geojson").catch(() => ({ ok: false }));
+    const pRes = await fetch("./data/Paths.geojson").catch(() => ({ ok: false }));
+    const ctRes = await fetch("./data/Centroids.geojson").catch(() => ({ ok: false }));
 
     const cRes = await fetch("./data/chart_assignments.csv").catch(() => ({ ok: false }));
     const sRes = await fetch("https://docs.google.com/spreadsheets/d/1_jmmV7BfdFA5yo5PaJ65j9KAv4GMxA-W6VOI2rP0l7c/export?format=csv&gid=0").catch(() => ({ ok: false }));

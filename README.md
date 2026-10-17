@@ -1,11 +1,11 @@
-## Basic Premise (Summary)
+## Basic Premise or Summary of Event
 - University teams capture campus buildings by individual players submitting 
   a score from each node's specific/dedicated rhythm game chart on Discord/GH-Page Webapp.
 - Players can only hop from node to node on the path shared by their university team.
 - Whichever university team captures the most campus buildings by the end of November wins a prize.
 - It's like any other territory takeover game (so JetLagTG challenge coded)
 
-## Link to Github Pages Webapp
+## Link to Github Pages (Webapp)
 - TBA/WIP
 
 ## TODO:

@@ -21,6 +21,7 @@
 ## CWRGE Documents (Google Forms Poll & Sheets)
 - https://forms.gle/D3NLeuScQ1QhZmPk8
 - https://docs.google.com/spreadsheets/d/1_jmmV7BfdFA5yo5PaJ65j9KAv4GMxA-W6VOI2rP0l7c/edit?usp=sharing
+- Add Discord link once the event is confirmed
 
 ## Updating territory during the event
 
@@ -31,10 +32,10 @@
 5. No need to git push because the sheet is the source of truth.
 
 ## List of Universities (that have at least one executive volunteer to be a representative)
-- University of Toronto
-- University of British Columbia
-- Waterloo University
-- McMaster University
-- Western University
-- University of Alberta
-- Ontario Tech University
+- [University of Toronto](https://www.utoronto.ca/)
+- [University of British Columbia](https://www.ubc.ca/)
+- [Waterloo University](https://uwaterloo.ca/)
+- [McMaster University](https://www.mcmaster.ca/)
+- [Western University](https://www.uwo.ca/index.html)
+- [University of Alberta](https://www.ualberta.ca/en/index.html)
+- [Ontario Tech University](https://ontariotechu.ca/)

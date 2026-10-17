@@ -1,0 +1,9 @@
+i used llm to assist with some hosting on github pages stuff.
+
+really i only made the geojsons and i originally i was going
+to update it and send the maps every time, but i had an idea
+and figured pulling from a google sheet automatically would
+be much more efficient.
+
+i think it came out pretty nicely and i cant wait to get to
+actually hosting this event, it will be so fun.

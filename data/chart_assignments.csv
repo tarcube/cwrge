@@ -1,0 +1,436 @@
+campus,num,name,hops,band,degree,song,chart,game,platform,tier,submitter
+Alberta,128,PAW Centre,0,1,0,Beethoven Virus,SINGLE 3,PIU,arcade,1,auto-generated-by-llm-for-demo
+Alberta,141,Katz,0,1,0,PANIC HOLIC,NOVICE 5,SDVX,arcade,1,auto-generated-by-llm-for-demo
+British Columbia,186,LIFE,0,1,0,MENDES,BEGINNER 3,IIDX,arcade,1,auto-generated-by-llm-for-demo
+British Columbia,215,LSC,0,1,0,Romeo and Cinderella,BASIC 4,Chunithm,arcade,1,auto-generated-by-llm-for-demo
+McMaster,16,Drill Hall,0,1,0,Landscape,NM 4,DJMAX,PC,1,auto-generated-by-llm-for-demo
+McMaster,35,Life Sciences Building,0,1,0,World is Mine,NORMAL 2.0*,osu!,PC,1,auto-generated-by-llm-for-demo
+Ontario Tech,62,Campus Recreation & Wellness Centre,0,1,0,Melt,FUTSUU 2,Taiko,arcade,1,auto-generated-by-llm-for-demo
+Ontario Tech,77,Simcoe Street Eatery,0,1,0,World is Mine,BASIC 4,Ongeki,arcade,1,auto-generated-by-llm-for-demo
+Toronto,228,Bahen Centre for Information Technology,0,1,0,Kagerou Days,BASIC 4,maimai,arcade,1,auto-generated-by-llm-for-demo
+Toronto,305,Sanford Fleming Building,0,1,0,TRIP MACHINE,BEGINNER 3,DDR,arcade,1,auto-generated-by-llm-for-demo
+Waterloo,325,AVR,0,1,0,Melt,BASIC 3,Ongeki,arcade,1,auto-generated-by-llm-for-demo
+Waterloo,370,PHY,0,1,0,My Heart Will Go On,SINGLE 5,PIU,arcade,1,auto-generated-by-llm-for-demo
+Western,384,Alumni Hall,0,1,0,Romeo and Cinderella,FUTSUU 2,Taiko,arcade,1,auto-generated-by-llm-for-demo
+Western,430,University Community Center,0,1,0,Butterfly,BEGINNER 2,DDR,arcade,1,auto-generated-by-llm-for-demo
+Alberta,89,Humanities Centre,1,3,0,BRE∀K DOWN!,EXPERT 13,DDR,arcade,3,auto-generated-by-llm-for-demo
+Alberta,90,HUB Mall,1,3,0,Otome Dissection,MASTER 10,maimai,arcade,3,auto-generated-by-llm-for-demo
+Alberta,91,Corbett Hall,1,3,0,era (step mix),HYPER 8,IIDX,arcade,3,auto-generated-by-llm-for-demo
+Alberta,92,Kaye Edmonton Clinic,1,3,0,Romeo and Cinderella,MASTER 9,maimai,arcade,3,auto-generated-by-llm-for-demo
+Alberta,93,Aberhart Centre,1,3,0,Magnet,MASTER 9,Ongeki,arcade,3,auto-generated-by-llm-for-demo
+Alberta,94,University Hall,1,3,0,FLOWER,ADVANCED 10,SDVX,arcade,3,auto-generated-by-llm-for-demo
+Alberta,95,Human Ecology Lab,1,3,0,Gimme! Revolution,HARD 5.5*,osu!,PC,3,auto-generated-by-llm-for-demo
+Alberta,96,Earth Sciences Annex,1,3,0,Kagerou Days,MASTER 9,maimai,arcade,3,auto-generated-by-llm-for-demo
+Alberta,97,Brain&Aging Research Building,1,3,0,Sharing The World,ONI 5,Taiko,arcade,3,auto-generated-by-llm-for-demo
+Alberta,98,Alberta School of Business,1,3,0,Koi wa Sensou,MASTER 9,Chunithm,arcade,3,auto-generated-by-llm-for-demo
+Alberta,99,Morrison Structural Engineering Lab,1,3,0,Romeo and Cinderella,MASTER 9,Chunithm,arcade,3,auto-generated-by-llm-for-demo
+Alberta,100,Agriculture Forestry Building,1,3,0,"Don't say ""lazy""",MASTER 8,maimai,arcade,3,auto-generated-by-llm-for-demo
+Alberta,101,Education Centre South,1,3,0,Romeo and Cinderella,MASTER 9,Ongeki,arcade,3,auto-generated-by-llm-for-demo
+Alberta,102,Industrial Design Studio,1,3,0,Hitorinbo Envy,MASTER 9,maimai,arcade,3,auto-generated-by-llm-for-demo
+Alberta,103,Earth Sciences Building,1,3,0,Kagerou Days,MASTER 9,Chunithm,arcade,3,auto-generated-by-llm-for-demo
+Alberta,104,General Services Building,1,3,0,Ama no Jaku,MASTER 10,maimai,arcade,3,auto-generated-by-llm-for-demo
+Alberta,105,Students' Union Building,1,3,0,Hajimete no Koi ga Owaru Toki,MASTER 8,maimai,arcade,3,auto-generated-by-llm-for-demo
+Alberta,106,Triffo Hall,1,3,0,Blastix Riotz,ADVANCED 11,SDVX,arcade,3,auto-generated-by-llm-for-demo
+Alberta,107,Dentistry Pharmacy,1,3,0,Just Be Friends,MASTER 9,Chunithm,arcade,3,auto-generated-by-llm-for-demo
+Alberta,108,Computer Sciences,1,3,0,SPiCa,MASTER 9,Chunithm,arcade,3,auto-generated-by-llm-for-demo
+Alberta,109,Cameron Library,1,3,0,dreaming,FUTURE 8,Arcaea,mobile,3,auto-generated-by-llm-for-demo
+Alberta,110,Arts& Convocation Hall,1,3,0,SPiCa,MASTER 9,maimai,arcade,3,auto-generated-by-llm-for-demo
+Alberta,111,North Power Plant,1,3,0,Ama no Jaku,MASTER 10,Chunithm,arcade,3,auto-generated-by-llm-for-demo
+Alberta,112,Natural Resources Engineering Faculty,1,3,0,CHAOS protocol,FUTURE 8,Arcaea,mobile,3,auto-generated-by-llm-for-demo
+Alberta,113,Materials Management,1,3,0,Magnet,MASTER 9,Chunithm,arcade,3,auto-generated-by-llm-for-demo
+Alberta,114,Heating Plant,1,3,0,R3,ANOTHER 6,IIDX,arcade,3,auto-generated-by-llm-for-demo
+Alberta,115,Edmonton Clinic Health Academy,1,3,0,Happy Synthesizer,EXPERT 9,Wacca,arcade,3,auto-generated-by-llm-for-demo
+Alberta,116,Jubilee Auditorium,1,3,0,MAX BURNING!!,ADVANCED 12,SDVX,arcade,3,auto-generated-by-llm-for-demo
+Alberta,117,Cross Cancer Institute,1,3,0,For All The Challengers,ADVANCED 13,SDVX,arcade,3,auto-generated-by-llm-for-demo
+Alberta,118,Conference Services,1,3,0,TRIP MACHINE,EXPERT 11,DDR,arcade,3,auto-generated-by-llm-for-demo
+Alberta,119,Research Transition Facility,1,3,0,Tell Your World,HARD 5.2*,osu!,PC,3,auto-generated-by-llm-for-demo
+Alberta,120,Thermal Energy Storage/RE Phillips,1,3,0,World is Mine,ONI 6,Taiko,arcade,3,auto-generated-by-llm-for-demo
+Alberta,121,Kelsey Hall/Mackenzie Hall/Henday Hall/Schaffer Hall/Thelma Chalifoux Hall,1,3,0,Happy Synthesizer,MASTER 9,Ongeki,arcade,3,auto-generated-by-llm-for-demo
+Alberta,122,Chemical/Materials Engineering/Donadeo Innovation Centre for Engineering,1,3,0,Unhappy Refrain,MASTER 9,maimai,arcade,3,auto-generated-by-llm-for-demo
+Alberta,123,ECERF/ETLC,1,3,0,DYNAMITE RAVE,EXPERT 11,DDR,arcade,3,auto-generated-by-llm-for-demo
+Alberta,124,Chemistry West/Chemistry East,1,3,0,B.B.K.K.B.K.K. (USAO Remix),ADVANCED 13,SDVX,arcade,3,auto-generated-by-llm-for-demo
+Alberta,125,Pembina Hall/Assiniboia Hall/Athabasca Hall,1,3,0,Unhappy Refrain,MASTER 9,Chunithm,arcade,3,auto-generated-by-llm-for-demo
+Alberta,126,Fine Arts Building/Law Centre/Timm's Centre/Telus Centre,1,3,0,Blessing,MASTER 8,maimai,arcade,3,auto-generated-by-llm-for-demo
+Alberta,127,Rutherford Library North/Rutherford Library South,1,3,0,Happy Synthesizer,MASTER 9,maimai,arcade,3,auto-generated-by-llm-for-demo
+Alberta,129,Centennial Centre for Interdisciplinary Science,1,3,0,GERBERA -For Finalists-,ADVANCED 11,SDVX,arcade,3,auto-generated-by-llm-for-demo
+Alberta,130,Central Academic Building,1,3,0,Hitorinbo Envy,MASTER 9,Chunithm,arcade,3,auto-generated-by-llm-for-demo
+Alberta,131,South Academic Building,1,3,0,Sharing The World,MASTER 9,maimai,arcade,3,auto-generated-by-llm-for-demo
+Alberta,132,Biological Sciences,1,3,0,Bangin' Burst,ADVANCED 12,SDVX,arcade,3,auto-generated-by-llm-for-demo
+Alberta,133,National Institute for Nanotechnology,1,3,0,AD2222,MX 9,DJMAX,PC,3,auto-generated-by-llm-for-demo
+Alberta,134,Mechanical Engineering,1,3,0,Butterfly,EXPERT 10,DDR,arcade,3,auto-generated-by-llm-for-demo
+Alberta,135,Universiade (Pavilion),1,3,0,V,HYPER 7,IIDX,arcade,3,auto-generated-by-llm-for-demo
+Alberta,136,Lister Centre,1,3,0,Senbonzakura,EXPERT 10,Wacca,arcade,3,auto-generated-by-llm-for-demo
+Alberta,137,Cooling Plant on Campus,1,3,0,Tokyo Teddy Bear,MASTER 9,Chunithm,arcade,3,auto-generated-by-llm-for-demo
+Alberta,138,Clinical Sciences,1,3,0,Colors,HYPER 7,IIDX,arcade,3,auto-generated-by-llm-for-demo
+Alberta,139,Mazankowski Alberta Health Institute,1,3,0,PANIC HOLIC,ADVANCED 10,SDVX,arcade,3,auto-generated-by-llm-for-demo
+Alberta,140,Medical Sciences,1,3,0,Just Be Friends,ONI 5,Taiko,arcade,3,auto-generated-by-llm-for-demo
+Alberta,142,Heritage Medical Research Centre,1,3,0,World is Mine,MASTER 8,Chunithm,arcade,3,auto-generated-by-llm-for-demo
+Alberta,143,NANUC,1,3,0,Beethoven Virus,SINGLE 15,PIU,arcade,3,auto-generated-by-llm-for-demo
+Alberta,144,Li Ka Shing,1,3,0,Yobanashi Deceive,MASTER 10,Chunithm,arcade,3,auto-generated-by-llm-for-demo
+Alberta,145,Education Centre North,1,3,0,Freely Tomorrow,MASTER 9,Chunithm,arcade,3,auto-generated-by-llm-for-demo
+Alberta,146,Henry Marshall Tory Building,1,3,0,Kagerou Days,MASTER 9,Ongeki,arcade,3,auto-generated-by-llm-for-demo
+Alberta,147,University Hospital/Zeidler Ledcor Centre,1,3,0,Inferno,HARD 7,Muse Dash,mobile,3,auto-generated-by-llm-for-demo
+Alberta,148,Van Vilet West/Van Vilet East,1,3,0,Come With Me,HYPER 6,IIDX,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,149,IONA,1,3,0,Extravaganza,SINGLE 18,PIU,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,150,CHPH,1,3,0,Suki Kirai,MASTER 8,maimai,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,151,SHRM,1,3,0,tripping contact,HYPER 7,IIDX,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,152,STRG,1,3,0,Cantarella,ONI 6,Taiko,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,153,SPPH,1,3,0,Romeo and Cinderella,EXPERT 9,Wacca,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,154,BIOL,1,3,0,龍と少女とデコヒーレンス,HYPER 8,IIDX,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,155,CEME,1,3,0,Cantarella,MASTER 9,maimai,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,156,AERL,1,3,0,VALKYRIE ASSAULT,ADVANCED 13,SDVX,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,157,CIRS,1,3,0,OUTER LIMITS,HYPER 6,IIDX,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,158,EOS,1,3,0,Chrono Diver -PENDULUMs-,ADVANCED 10,SDVX,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,159,ESB,1,3,0,Bitter Choco Decoration,MASTER 10,maimai,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,160,ESC,1,3,0,Yobanashi Deceive,MASTER 10,maimai,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,161,ICCS,1,3,0,ほんとのきもち,HYPER 30,popn,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,162,WMAX,1,3,0,Drop Out,EXPERT 12,DDR,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,163,BUTO,1,3,0,Magnet,MASTER 9,maimai,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,164,HORT,1,3,0,Sayonara Hatsukoi,FUTURE 7,Arcaea,mobile,3,auto-generated-by-llm-for-demo
+British Columbia,165,MCDN,1,3,0,JOMANDA,ADVANCED 11,SDVX,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,166,LAX,1,3,0,quasar,HYPER 7,IIDX,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,167,CUNN,1,3,0,ROOFTOP,CHAOS 9,Cytus II,mobile,3,auto-generated-by-llm-for-demo
+British Columbia,168,HEBB,1,3,0,The Sampling Paradise (N-Tek Mix),ADVANCED 12,SDVX,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,169,MCML,1,3,0,Yowamushi Montblanc,MASTER 10,maimai,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,170,MINL,1,3,0,Yuukei Yesterday,MASTER 9,maimai,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,171,FNH,1,3,0,Alien Alien,HARD 5.7*,osu!,PC,3,auto-generated-by-llm-for-demo
+British Columbia,172,CSB,1,3,0,MENDES,HYPER 8,IIDX,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,173,BRC,1,3,0,Vivid Theory,FUTURE 6,Arcaea,mobile,3,auto-generated-by-llm-for-demo
+British Columbia,174,GUNN,1,3,0,Philosophy,HARD 9,Phigros,mobile,3,auto-generated-by-llm-for-demo
+British Columbia,175,IRSC,1,3,0,V2,ADVANCED 12,SDVX,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,176,PHRM,1,3,0,Gurenge,HARD 5.8*,osu!,PC,3,auto-generated-by-llm-for-demo
+British Columbia,177,MEDC,1,3,0,Happy Synthesizer,MASTER 9,Chunithm,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,178,FRDM,1,3,0,MANIERA,ADVANCED 11,SDVX,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,179,KENN,1,3,0,LUV TO ME,ADVANCED 12,SDVX,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,180,LIU,1,3,0,World is Mine,EXPERT 18,PJSK,mobile,3,auto-generated-by-llm-for-demo
+British Columbia,181,ANSO,1,3,0,Melt,MASTER 20,PJSK,mobile,3,auto-generated-by-llm-for-demo
+British Columbia,182,ACEN,1,3,0,Roki,ONI 5,Taiko,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,183,SBUS,1,3,0,Cantarella,MASTER 9,Chunithm,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,184,WESB,1,3,0,Sugar Song to Bitter Step,ONI 6,Taiko,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,185,MBOL,1,3,0,Happy Synthesizer,ONI 6,Taiko,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,187,BETY,1,3,0,5.1.1,HYPER 7,IIDX,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,188,ANGU,1,3,0,Romeo and Cinderella,ONI 6,Taiko,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,189,SCRF,1,3,0,Magnet,ONI 5,Taiko,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,190,IBLC,1,3,0,D2R,MX 10,DJMAX,PC,3,auto-generated-by-llm-for-demo
+British Columbia,191,STAO,1,3,0,FLOWER,HYPER 8,IIDX,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,192,GEOG,1,3,0,Lost One's Weeping,MASTER 10,maimai,arcade,3,auto-generated-by-llm-for-demo
+British Columbia,193,AUDX,1,3,0,Turing Love,ADVANCED 7,maimai,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,194,SWNG,1,3,0,World is Mine,HARD 6,Wacca,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,195,FNLH,1,3,0,Melt,HARD 6,Wacca,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,196,UCEN,1,3,0,Colors,NORMAL 4,IIDX,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,197,FSC,1,3,0,Senbonzakura,ADVANCED 7,maimai,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,198,FORW,1,3,0,Hitorinbo Envy,ADVANCED 7,maimai,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,199,KAIS,1,3,0,Melt,NORMAL 3.2*,osu!,PC,2,auto-generated-by-llm-for-demo
+British Columbia,200,MSL,1,3,0,Airwave,HD 7,DJMAX,PC,2,auto-generated-by-llm-for-demo
+British Columbia,201,LASR,1,3,0,Gimme! Revolution,ADVANCED 6,maimai,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,202,MATX,1,3,0,ROOFTOP,HARD 6,Cytus II,mobile,2,auto-generated-by-llm-for-demo
+British Columbia,203,TFPB,1,3,0,World is Mine,MUZUKASHII 4,Taiko,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,204,CHEM,1,3,0,For All The Challengers,NOVICE 6,SDVX,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,205,CHOI,1,3,0,V,NORMAL 5,IIDX,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,206,DLAM,1,3,0,Romeo and Cinderella,NORMAL 3.7*,osu!,PC,2,auto-generated-by-llm-for-demo
+British Columbia,207,BUCH,1,3,0,Romeo and Cinderella,HARD 7,Wacca,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,208,MUSC,1,3,0,JOMANDA,NOVICE 7,SDVX,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,209,CHBE,1,3,0,VALKYRIE ASSAULT,NOVICE 6,SDVX,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,210,BRIM,1,3,0,Kagerou Days,ADVANCED 7,Chunithm,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,211,EDC,1,3,0,Magnet,MUZUKASHII 3,Taiko,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,212,LSK,1,3,0,dreaming,PRESENT 5,Arcaea,mobile,2,auto-generated-by-llm-for-demo
+British Columbia,213,DMP,1,3,0,Oblivion,HD 6,DJMAX,PC,2,auto-generated-by-llm-for-demo
+British Columbia,214,MCLD,1,3,0,Romeo and Cinderella,ADVANCED 7,maimai,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,216,IRC,1,3,0,B.B.K.K.B.K.K. (USAO Remix),NOVICE 6,SDVX,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,217,WLIB,1,3,0,Magnet,ADVANCED 6,Chunithm,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,218,ALRD,1,3,0,TRIP MACHINE,BASIC 7,DDR,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,219,HENN,1,3,0,Koi wa Sensou,NORMAL 3.5*,osu!,PC,2,auto-generated-by-llm-for-demo
+British Columbia,220,CEML,1,3,0,GAMBOL,NORMAL 4,IIDX,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,221,SOWK/BINN/DSOM,1,3,0,Hitorinbo Envy,ADVANCED 7,Chunithm,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,222,WDL/STRX,1,3,0,Happy Synthesizer,MUZUKASHII 4,Taiko,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,223,OSB1/OSB2,1,3,0,ほんとのきもchi,NORMAL 16,popn,arcade,2,auto-generated-by-llm-for-demo
+British Columbia,224,KLIB/MATH,1,3,0,Romeo and Cinderella,ADVANCED 7,Chunithm,arcade,2,auto-generated-by-llm-for-demo
+McMaster,1,A. N. Bourns Science Building,1,3,0,World is Mine,ADVANCED 7,Ongeki,arcade,2,auto-generated-by-llm-for-demo
+McMaster,2,Alumni House,1,3,0,Tell Your World,EXPERT 14,PJSK,mobile,2,auto-generated-by-llm-for-demo
+McMaster,3,Alumni Memorial Hall,1,3,0,Sayonara Hatsukoi,PRESENT 4,Arcaea,mobile,2,auto-generated-by-llm-for-demo
+McMaster,4,Alvin A. Lee Building (Mills Memorial Library/McMaster Museum of Art),1,3,0,Twinkle Star,HARD 5,Phigros,mobile,2,auto-generated-by-llm-for-demo
+McMaster,5,Bates Residence,1,3,0,BAYONEX,NOVICE 7,SDVX,arcade,2,auto-generated-by-llm-for-demo
+McMaster,6,Biology Greenhouse,1,3,0,Melt,ADVANCED 7,Chunithm,arcade,2,auto-generated-by-llm-for-demo
+McMaster,7,Brandon Hall,1,3,0,Butterfly,BASIC 6,DDR,arcade,2,auto-generated-by-llm-for-demo
+McMaster,8,Burke Science Building,1,3,0,Tell Your World,ADVANCED 7,Chunithm,arcade,2,auto-generated-by-llm-for-demo
+McMaster,9,Centre for Probe Development and Commercialization,1,3,0,HeaveN's Rain,NOVICE 8,SDVX,arcade,2,auto-generated-by-llm-for-demo
+McMaster,10,Chester New Hall,1,3,0,Kagerou Days,ADVANCED 7,maimai,arcade,2,auto-generated-by-llm-for-demo
+McMaster,11,Commons Building,1,3,0,Inferno,HARD 4.0*,osu!,PC,2,auto-generated-by-llm-for-demo
+McMaster,12,Communications Research Laboratory,1,3,0,World is Mine,ADVANCED 7,Chunithm,arcade,2,auto-generated-by-llm-for-demo
+McMaster,13,David Braley Athletic Centre,1,3,0,Freely Tomorrow,EXPERT 12,PJSK,mobile,2,auto-generated-by-llm-for-demo
+McMaster,14,DeGroote School of Business,1,3,0,Cantarella,ADVANCED 5,Chunithm,arcade,2,auto-generated-by-llm-for-demo
+McMaster,15,Divinity College,1,3,0,Suki Kirai,ADVANCED 6,Chunithm,arcade,2,auto-generated-by-llm-for-demo
+McMaster,17,E. T. Clarke Centre,1,3,0,Magnet,ADVANCED 6,maimai,arcade,2,auto-generated-by-llm-for-demo
+McMaster,18,Edwards Hall,1,3,0,"Don't say ""lazy""",ADVANCED 5,maimai,arcade,2,auto-generated-by-llm-for-demo
+McMaster,19,Engineering Technology Building,1,3,0,FLOWER,NOVICE 8,SDVX,arcade,2,auto-generated-by-llm-for-demo
+McMaster,20,General Sciences Building,1,3,0,5.1.1,NORMAL 5,IIDX,arcade,2,auto-generated-by-llm-for-demo
+McMaster,21,Gerald Hatch Centre for Engineering Experiential Learning,1,3,0,Tell Your World,HARD 4,Muse Dash,mobile,2,auto-generated-by-llm-for-demo
+McMaster,22,Gilmour Hall,1,3,0,Cantarella,MUZUKASHII 4,Taiko,arcade,2,auto-generated-by-llm-for-demo
+McMaster,23,H. G. Thode Library of Science and Engineering,1,3,0,tripping contact,NORMAL 4,IIDX,arcade,2,auto-generated-by-llm-for-demo
+McMaster,24,Hamilton Hall,1,3,0,Chicken Wing,SINGLE 10,PIU,arcade,2,auto-generated-by-llm-for-demo
+McMaster,25,Health Sciences Centre,1,3,0,R3,NORMAL 4,IIDX,arcade,2,auto-generated-by-llm-for-demo
+McMaster,26,Health Sciences Complex Parking Structure,1,3,0,DYNAMITE RAVE,BASIC 6,DDR,arcade,2,auto-generated-by-llm-for-demo
+McMaster,27,Hedden Hall,1,3,0,Tell Your World,ADVANCED 7,maimai,arcade,2,auto-generated-by-llm-for-demo
+McMaster,28,Information Technology Building,1,3,0,Loca,SINGLE 12,PIU,arcade,2,auto-generated-by-llm-for-demo
+McMaster,29,Institute for Applied Health Sciences Building,1,3,0,SPiCa,ADVANCED 6,Chunithm,arcade,2,auto-generated-by-llm-for-demo
+McMaster,30,Ivor Wynne Centre,1,3,0,Suki Kirai,ADVANCED 6,maimai,arcade,2,auto-generated-by-llm-for-demo
+McMaster,31,John Hodgins Engineering Building,1,3,0,Melt,ADVANCED 7,Ongeki,arcade,2,auto-generated-by-llm-for-demo
+McMaster,32,Kenneth Taylor Hall,1,3,0,Koi wa Sensou,ADVANCED 7,Chunithm,arcade,2,auto-generated-by-llm-for-demo
+McMaster,33,L. R. Wilson Hall,1,3,0,Melt,MUZUKASHII 4,Taiko,arcade,2,auto-generated-by-llm-for-demo
+McMaster,34,Les Prince Hall,1,3,0,Romeo and Cinderella,MUZUKASHII 3,Taiko,arcade,2,auto-generated-by-llm-for-demo
+McMaster,36,Mary E. Keyes Residence,1,3,0,World is Mine,ADVANCED 6,maimai,arcade,2,auto-generated-by-llm-for-demo
+McMaster,37,Matthews Hall,1,3,0,You Are My Best RivaL!!,NOVICE 7,SDVX,arcade,2,auto-generated-by-llm-for-demo
+McMaster,38,McKay Hall,1,3,0,era (step mix),NORMAL 5,IIDX,arcade,2,auto-generated-by-llm-for-demo
+McMaster,39,McMaster University Student Centre,1,3,0,Melt,ADVANCED 7,maimai,arcade,2,auto-generated-by-llm-for-demo
+McMaster,40,Michael G. DeGroote Centre for Learning and Discovery,1,3,0,APØCALYPSE RAY,NOVICE 8,SDVX,arcade,2,auto-generated-by-llm-for-demo
+McMaster,41,Moulton Hall,1,3,0,"Don't say ""lazy""",ADVANCED 5,Chunithm,arcade,2,auto-generated-by-llm-for-demo
+McMaster,42,Nuclear Reactor,1,3,0,Outer Science,MASTER 26,PJSK,mobile,4,auto-generated-by-llm-for-demo
+McMaster,43,Nuclear Research Building,1,3,0,Beat of the War 2,SINGLE 23,PIU,arcade,4,auto-generated-by-llm-for-demo
+McMaster,44,Peter George Centre for Living and Learning,1,3,0,TRIGGER*HAPPY,MAXIMUM 17,SDVX,arcade,4,auto-generated-by-llm-for-demo
+McMaster,45,Psychology Building,1,3,0,Matryoshka,MASTER 12,maimai,arcade,4,auto-generated-by-llm-for-demo
+McMaster,46,Refectory,1,3,0,Sigmund,ANOTHER 10,IIDX,arcade,4,auto-generated-by-llm-for-demo
+McMaster,47,Ron Joyce Stadium,1,3,0,Senbonzakura,INSANE 7.5*,osu!,PC,4,auto-generated-by-llm-for-demo
+McMaster,48,T13,1,3,0,Dramatugy,ONI 7,Taiko,arcade,4,auto-generated-by-llm-for-demo
+McMaster,49,T14,1,3,0,Oshama Scramble!,ONI 7,Taiko,arcade,4,auto-generated-by-llm-for-demo
+McMaster,50,T34,1,3,0,Yoru ni Kakeru,INSANE 7.2*,osu!,PC,4,auto-generated-by-llm-for-demo
+McMaster,51,Tandem Accelerator,1,3,0,Out Law,MX 13,DJMAX,PC,4,auto-generated-by-llm-for-demo
+McMaster,52,Togo Salmon Hall,1,3,0,Galaxy Collapse,FUTURE 10,Arcaea,mobile,4,auto-generated-by-llm-for-demo
+McMaster,53,University Hall,1,3,0,Gimme! Revolution,ONI 7,Taiko,arcade,4,auto-generated-by-llm-for-demo
+McMaster,54,Wallingford Hall,1,3,0,Blue Zenith,INSANE 7.9*,osu!,PC,4,auto-generated-by-llm-for-demo
+McMaster,55,Whidden Hall,1,3,0,Singularity,CHAOS 13,Cytus II,mobile,4,auto-generated-by-llm-for-demo
+McMaster,56,Woodstock Hall,1,3,0,Sinfonia,MASTER 9,Muse Dash,mobile,4,auto-generated-by-llm-for-demo
+Ontario Tech,57,Automotive Centre of Excellence,1,3,0,God-ish,MASTER 12,Ongeki,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,58,Business and IT Building,1,3,0,KING,EXPERT 13,Wacca,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,59,Campus Fieldhouse,1,3,0,Tell Your World,ONI 7,Taiko,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,60,Campus Ice Centre,1,3,0,Vicious Labyrinth,FUTURE 9,Arcaea,mobile,4,auto-generated-by-llm-for-demo
+Ontario Tech,61,Campus Library,1,3,0,Distorted Fate,IN 14,Phigros,mobile,4,auto-generated-by-llm-for-demo
+Ontario Tech,63,Centre for Collaborative Education (CFCE),1,3,0,PARANOiA MAX ~DIRTY MIX~,EXPERT 15,DDR,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,64,Centre For Innovation and Research,1,3,0,Two-Faced Lovers,ONI 8,Taiko,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,65,Clean Energy Research Laboratory CERL,1,3,0,MAX 300,EXPERT 17,DDR,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,66,Durham College,1,3,0,Healing Vision (Angelic Mix),EXPERT 16,DDR,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,67,Durham College Pre-Service Firefighter Student,1,3,0,Dramatugy,MASTER 12,Ongeki,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,68,Energy Innovation Centre,1,3,0,God-ish,EXPERT 12,Wacca,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,69,Energy Research Centre,1,3,0,Grievous Lady,MASTER 9,Muse Dash,mobile,4,auto-generated-by-llm-for-demo
+Ontario Tech,70,English Language Centre,1,3,0,Harumachi Clover (Swing Arrangement),INSANE 7.5*,osu!,PC,4,auto-generated-by-llm-for-demo
+Ontario Tech,71,L wing,1,3,0,AFRONOVA,EXPERT 15,DDR,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,72,Ontario Power Generation Engineering Building,1,3,0,Interference,CHAOS 12,Cytus II,mobile,4,auto-generated-by-llm-for-demo
+Ontario Tech,73,RBC,1,3,0,Inferno,ONI 7,Taiko,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,74,Science Building,1,3,0,Kagerou Days,MASTER 25,PJSK,mobile,4,auto-generated-by-llm-for-demo
+Ontario Tech,75,Shawenjigewining Hall,1,3,0,Phony,EXPERT 12,Wacca,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,76,Shoppers Drug Mart,1,3,0,Hitorinbo Envy,MASTER 28,PJSK,mobile,4,auto-generated-by-llm-for-demo
+Ontario Tech,78,Simcoe Village,1,3,0,Night of Nights,INSANE 7.0*,osu!,PC,4,auto-generated-by-llm-for-demo
+Ontario Tech,79,Software and Informatics Research Centre,1,3,0,Burnin' The Floor,EXPERT 14,DDR,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,80,South Village Residence,1,3,0,KING,MASTER 13,Ongeki,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,81,South Wing,1,3,0,Oblivion,MX 12,DJMAX,PC,4,auto-generated-by-llm-for-demo
+Ontario Tech,82,Student Centre,1,3,0,KING,ONI 7,Taiko,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,83,Student Services Building,1,3,0,Nhelv,FUTURE 9,Arcaea,mobile,4,auto-generated-by-llm-for-demo
+Ontario Tech,84,Taylorwood Student Residences,1,3,0,Melt,ONI 8,Taiko,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,85,The West Village,1,3,0,Primal Crisis,EX 40,popn,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,86,University Pavilion,1,3,0,Dramatugy,EXPERT 12,Wacca,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,87,University Studios,1,3,0,Gurenge,ONI 8,Taiko,arcade,4,auto-generated-by-llm-for-demo
+Ontario Tech,88,Village Suites Oshawa,1,3,0,Conflict,SINGLE 25,PIU,arcade,4,auto-generated-by-llm-for-demo
+Toronto,225,Annesley Hall,1,3,0,Landscape,MX 12,DJMAX,PC,4,auto-generated-by-llm-for-demo
+Toronto,226,Anthropology Building,1,3,0,Last,FUTURE 10,Arcaea,mobile,4,auto-generated-by-llm-for-demo
+Toronto,227,Arthur M. Kruger Hall,1,3,0,Luminance,IN 12,Phigros,mobile,4,auto-generated-by-llm-for-demo
+Toronto,229,Bancroft Hall,1,3,0,Phony,MASTER 12,Ongeki,arcade,4,auto-generated-by-llm-for-demo
+Toronto,230,Birge Carnegie,1,3,0,Sayonara Hatsukoi,PAST 3,Arcaea,mobile,1,auto-generated-by-llm-for-demo
+Toronto,231,Brennan Hall,1,3,0,World is Mine,NORMAL 4,Wacca,arcade,1,auto-generated-by-llm-for-demo
+Toronto,232,Burwash Dining Hall,1,3,0,dreaming,PAST 2,Arcaea,mobile,1,auto-generated-by-llm-for-demo
+Toronto,233,C. David Naylor Building,1,3,0,World is Mine,FUTSUU 2,Taiko,arcade,1,auto-generated-by-llm-for-demo
+Toronto,234,Canadiana Gallery,1,3,0,Senbonzakura,EASY 1.8*,osu!,PC,1,auto-generated-by-llm-for-demo
+Toronto,235,Cardinal Flahiff Building,1,3,0,Magnet,KANTAN 1,Taiko,arcade,1,auto-generated-by-llm-for-demo
+Toronto,236,Caretaking,1,3,0,Butterfly,EASY 1.5*,osu!,PC,1,auto-generated-by-llm-for-demo
+Toronto,237,Carr Hall,1,3,0,Blessing,NORMAL 8,PJSK,mobile,1,auto-generated-by-llm-for-demo
+Toronto,238,Central Exams Facility,1,3,0,Melt,NORMAL 3,Wacca,arcade,1,auto-generated-by-llm-for-demo
+Toronto,239,Centre for Biological Timing and Cognition,1,3,0,INSANE TECHNIQUES,EX 49,popn,arcade,5,auto-generated-by-llm-for-demo
+Toronto,240,Centre for Industrial Relations and Human Resources,1,3,0,The Big Black,EXPERT 9.3*,osu!,PC,5,auto-generated-by-llm-for-demo
+Toronto,241,Centre for Urban and Community Studies,1,3,0,KING,MASTER 30,PJSK,mobile,5,auto-generated-by-llm-for-demo
+Toronto,242,Clara Benson Building,1,3,0,FREEDOM DiVE,EXPERT 9.0*,osu!,PC,5,auto-generated-by-llm-for-demo
+Toronto,243,Claude T. Bissell Building,1,3,0,Blue Zenith,MASTER 14,Ongeki,arcade,5,auto-generated-by-llm-for-demo
+Toronto,244,Cody Hall,1,3,0,PARANOiA HADES,EXPERT 19,DDR,arcade,5,auto-generated-by-llm-for-demo
+Toronto,245,Convocation Hall,1,3,0,"Over The ""Period""",EXPERT 18,DDR,arcade,5,auto-generated-by-llm-for-demo
+Toronto,246,Crux Discount Theological Books,1,3,0,Fracture Ray,FUTURE 11,Arcaea,mobile,5,auto-generated-by-llm-for-demo
+Toronto,247,D. L. Pratt Building,1,3,0,Pluto Relinquish,EXPERT 19,DDR,arcade,5,auto-generated-by-llm-for-demo
+Toronto,248,Daniels Building,1,3,0,Burn,IN 16,Phigros,mobile,5,auto-generated-by-llm-for-demo
+Toronto,249,Donnelly Centre for Cellular and Biomolecular Research,1,3,0,FREEDOM DiVE,ONI 10,Taiko,arcade,5,auto-generated-by-llm-for-demo
+Toronto,250,E. J. Pratt Library,1,3,0,Conflicts,INFERNO 14,Wacca,arcade,5,auto-generated-by-llm-for-demo
+Toronto,251,Early Learning Centre (Glen Morris),1,3,0,Kagerou Days,ONI 9,Taiko,arcade,5,auto-generated-by-llm-for-demo
+Toronto,252,Earth Sciences Centre,1,3,0,Fascination MAXX,EXPERT 18,DDR,arcade,5,auto-generated-by-llm-for-demo
+Toronto,253,Edward Johnson Building,1,3,0,Ignis Fatuus,SINGLE 27,PIU,arcade,5,auto-generated-by-llm-for-demo
+Toronto,254,Elmsley Hall,1,3,0,Dumplings for Breakfast,MASTER 11,Muse Dash,mobile,5,auto-generated-by-llm-for-demo
+Toronto,255,Engineering Annex,1,3,0,Technicians High,MASTER 14,Ongeki,arcade,5,auto-generated-by-llm-for-demo
+Toronto,256,Enrolment Services,1,3,0,Airwave,SC 14,DJMAX,PC,5,auto-generated-by-llm-for-demo
+Toronto,257,Factor-Inwentash Faculty of Social Work,1,3,0,TIEFSEE,EX 46,popn,arcade,5,auto-generated-by-llm-for-demo
+Toronto,258,Faculty Club,1,3,0,Senbonzakura,ONI 9,Taiko,arcade,5,auto-generated-by-llm-for-demo
+Toronto,259,Faculty of Music (South),1,3,0,Final Audition 4 REMIX (PUMPING STAR),SINGLE 26,PIU,arcade,5,auto-generated-by-llm-for-demo
+Toronto,260,Falconer Hall,1,3,0,Blue Zenith,INFERNO 14,Wacca,arcade,5,auto-generated-by-llm-for-demo
+Toronto,261,Fasken Martineau Building,1,3,0,NB Ranger ~Nonstop Remix~,SC 14,DJMAX,PC,5,auto-generated-by-llm-for-demo
+Toronto,262,Fields Institute for Research in Math Science,1,3,0,Galaxy Collapse,EXPERT 9.1*,osu!,PC,5,auto-generated-by-llm-for-demo
+Toronto,263,Fitzgerald Building,1,3,0,Hitorinbo Envy,ONI 9,Taiko,arcade,5,auto-generated-by-llm-for-demo
+Toronto,264,Gage Building,1,3,0,Testify,BEYOND 11,Arcaea,mobile,5,auto-generated-by-llm-for-demo
+Toronto,265,Galbraith Building,1,3,0,Conflicts,LUNATIC 15,Ongeki,arcade,5,auto-generated-by-llm-for-demo
+Toronto,266,George Ignatieff Theatre,1,3,0,Antrum,CHAOS 15,Cytus II,mobile,5,auto-generated-by-llm-for-demo
+Toronto,267,Gerald Larkin Building,1,3,0,Ikazuchi,INFERNO 15,Wacca,arcade,5,auto-generated-by-llm-for-demo
+Toronto,268,Goldring Centre,1,3,0,Grievous Lady,FUTURE 11,Arcaea,mobile,5,auto-generated-by-llm-for-demo
+Toronto,269,Goldring Student Centre,1,3,0,Camellia #1,EXPERT 9.2*,osu!,PC,5,auto-generated-by-llm-for-demo
+Toronto,270,Graduate Students Union,1,3,0,MAXX UNLIMITED,EXPERT 19,DDR,arcade,5,auto-generated-by-llm-for-demo
+Toronto,271,Haultain Building,1,3,0,Yoru ni Kakeru,ONI 9,Taiko,arcade,5,auto-generated-by-llm-for-demo
+Toronto,272,Health Sciences Building,1,3,0,Outer Science,ONI 9,Taiko,arcade,5,auto-generated-by-llm-for-demo
+Toronto,273,Howard Ferguson Dining Hall,1,3,0,Bad Apple!!,ONI 9,Taiko,arcade,5,auto-generated-by-llm-for-demo
+Toronto,274,Isabel Bader Theatre,1,3,0,Phony,MASTER 31,PJSK,mobile,5,auto-generated-by-llm-for-demo
+Toronto,275,Jackman Humanities Building,1,3,0,,,,,,
+Toronto,276,Jackman Law Building,1,3,0,,,,,,
+Toronto,277,Jesuits in English Canada,1,3,0,,,,,,
+Toronto,278,Koffler Student Services Centre,1,3,0,,,,,,
+Toronto,279,Lash Miller Chemical Laboratories,1,3,0,,,,,,
+Toronto,280,Lassonde Mining Building,1,3,0,,,,,,
+Toronto,281,Lawson Centre for Sustainability,1,3,0,,,,,,
+Toronto,282,Leslie Dan Pharmacy Building,1,3,0,,,,,,
+Toronto,283,Louis B. Stewart Observatory,1,3,0,,,,,,
+Toronto,284,Luella Massey Studio Theatre,1,3,0,,,,,,
+Toronto,285,McLennan Physical Laboratories,1,3,0,,,,,,
+Toronto,286,McMurrich Building,1,3,0,,,,,,
+Toronto,287,Mechanical Engineering Building,1,3,0,,,,,,
+Toronto,288,Medical Sciences Building,1,3,0,,,,,,
+Toronto,289,Multicultural History Society of Ontario,1,3,0,,,,,,
+Toronto,290,Muzzo Family Alumni Hall,1,3,0,,,,,,
+Toronto,291,Myhal Centre for Engineering Innovation and Entrepreneurship,1,3,0,,,,,,
+Toronto,292,Newman Centre,1,3,0,,,,,,
+Toronto,293,North Borden Building,1,3,0,,,,,,
+Toronto,294,Northrop Frye Hall,1,3,0,,,,,,
+Toronto,295,Odette Hall,1,3,0,,,,,,
+Toronto,296,Old Admin Building,1,3,0,,,,,,
+Toronto,297,Ontario Institute for Studies in Education (University of Toronto),1,3,0,,,,,,
+Toronto,298,Physical Geography Building,1,3,0,,,,,,
+Toronto,299,Pontifical Institute of Medieval Studies,1,3,0,,,,,,
+Toronto,300,Ramsay Wright Building,1,3,0,,,,,,
+Toronto,301,Robarts Library,1,3,0,,,,,,
+Toronto,302,Rosebrugh Building,1,3,0,,,,,,
+Toronto,303,Rotman School of Management,1,3,0,,,,,,
+Toronto,304,Rowell Jackman Hall,1,3,0,,,,,,
+Toronto,306,School of Continuing Studies,1,3,0,,,,,,
+Toronto,307,School of Graduate Studies - Office of the Dean,1,3,0,,,,,,
+Toronto,308,Schwartz Reisman Innovation Campus,1,3,0,,,,,,
+Toronto,309,Sidney Smith Hall,1,3,0,,,,,,
+Toronto,310,Simcoe Hall,1,3,0,,,,,,
+Toronto,311,Sir Daniel Wilson Residence,1,3,0,,,,,,
+Toronto,312,Sorbara Hall Student Residence,1,3,0,,,,,,
+Toronto,313,South Borden Building,1,3,0,,,,,,
+Toronto,314,Stewart Building,1,3,0,,,,,,
+Toronto,315,Sussex Court,1,3,0,,,,,,
+Toronto,316,Teefy Hall,1,3,0,,,,,,
+Toronto,317,Thomas Fisher Rare Book Library,1,3,0,,,,,,
+Toronto,318,Toronto School of Theology,1,3,0,,,,,,
+Toronto,319,Transitional Year Programme,1,3,0,,,,,,
+Toronto,320,UTSU Student Commons,1,3,0,,,,,,
+Toronto,321,Wallberg Building,1,3,0,,,,,,
+Toronto,322,Warren Stevens Building,1,3,0,,,,,,
+Toronto,323,Whitney Hall,1,3,0,,,,,,
+Waterloo,324,AL,1,3,0,,,,,,
+Waterloo,326,B1,1,3,0,,,,,,
+Waterloo,327,B2,1,3,0,,,,,,
+Waterloo,328,BMH,1,3,0,,,,,,
+Waterloo,329,BSC,1,3,0,,,,,,
+Waterloo,330,C2,1,3,0,,,,,,
+Waterloo,331,CIF,1,3,0,,,,,,
+Waterloo,332,CMH,1,3,0,,,,,,
+Waterloo,333,COM,1,3,0,,,,,,
+Waterloo,334,CPH,1,3,0,,,,,,
+Waterloo,335,CSB,1,3,0,,,,,,
+Waterloo,336,DC,1,3,0,,,,,,
+Waterloo,337,DWE,1,3,0,,,,,,
+Waterloo,338,E2,1,3,0,,,,,,
+Waterloo,339,E3,1,3,0,,,,,,
+Waterloo,340,E5,1,3,0,,,,,,
+Waterloo,341,E6,1,3,0,,,,,,
+Waterloo,342,E7,1,3,0,,,,,,
+Waterloo,343,EC1,1,3,0,,,,,,
+Waterloo,344,EC2,1,3,0,,,,,,
+Waterloo,345,EC3,1,3,0,,,,,,
+Waterloo,346,EC4,1,3,0,,,,,,
+Waterloo,347,EC5,1,3,0,,,,,,
+Waterloo,348,ECH,1,3,0,,,,,,
+Waterloo,349,EIT,1,3,0,,,,,,
+Waterloo,350,ERC,1,3,0,,,,,,
+Waterloo,351,ESC,1,3,0,,,,,,
+Waterloo,352,EV1,1,3,0,,,,,,
+Waterloo,353,EV2,1,3,0,,,,,,
+Waterloo,354,EV3,1,3,0,,,,,,
+Waterloo,355,FED,1,3,0,,,,,,
+Waterloo,356,GH,1,3,0,,,,,,
+Waterloo,357,GSC,1,3,0,,,,,,
+Waterloo,358,HH,1,3,0,,,,,,
+Waterloo,359,HS,1,3,0,,,,,,
+Waterloo,360,LIB,1,3,0,,,,,,
+Waterloo,361,M3,1,3,0,,,,,,
+Waterloo,362,MC,1,3,0,,,,,,
+Waterloo,363,MHR,1,3,0,,,,,,
+Waterloo,364,MKV,1,3,0,,,,,,
+Waterloo,365,ML,1,3,0,,,,,,
+Waterloo,366,NH,1,3,0,,,,,,
+Waterloo,367,OPT,1,3,0,,,,,,
+Waterloo,368,PAC,1,3,0,,,,,,
+Waterloo,369,PAS,1,3,0,,,,,,
+Waterloo,371,QNC,1,3,0,,,,,,
+Waterloo,372,RCH,1,3,0,,,,,,
+Waterloo,373,REV,1,3,0,,,,,,
+Waterloo,374,SCH,1,3,0,,,,,,
+Waterloo,375,SLC,1,3,0,,,,,,
+Waterloo,376,STC,1,3,0,,,,,,
+Waterloo,377,TC,1,3,0,,,,,,
+Waterloo,378,TH,1,3,0,,,,,,
+Waterloo,379,UC,1,3,0,,,,,,
+Waterloo,380,UWP,1,3,0,,,,,,
+Waterloo,381,V1,1,3,0,,,,,,
+Western,382,3M Centre,1,3,0,,,,,,
+Western,383,Advanced Facility for Avian Research,1,3,0,,,,,,
+Western,385,Amit Chakma Engineering Building,1,3,0,,,,,,
+Western,386,Arts & Humanities,1,3,0,,,,,,
+Western,387,Benson House,1,3,0,,,,,,
+Western,388,Biological & Geological Sciences,1,3,0,,,,,,
+Western,389,Biotron Experimental Climate Change Research Centre,1,3,0,,,,,,
+Western,390,Boundary Layer Wind Tunnel Laboratory,1,3,0,,,,,,
+Western,391,Chemistry Building,1,3,0,,,,,,
+Western,392,Claudette Mackay-Lassonde Pavilion,1,3,0,,,,,,
+Western,393,Collip Medical Research Building,1,3,0,,,,,,
+Western,394,Dental Sciences Building,1,3,0,,,,,,
+Western,395,Dr. Don Rix Clinical Skills Learning Building,1,3,0,,,,,,
+Western,396,FIMS & Nursing Building,1,3,0,,,,,,
+Western,397,Graphic Services,1,3,0,,,,,,
+Western,398,Greenhouses,1,3,0,,,,,,
+Western,399,Health Sciences Addition,1,3,0,,,,,,
+Western,400,Health Sciences Building,1,3,0,,,,,,
+Western,401,Huron University College,1,3,0,,,,,,
+Western,402,International & Graduate Affairs,1,3,0,,,,,,
+Western,403,John Labatt Visual Art Centre,1,3,0,,,,,,
+Western,404,Kresge Building,1,3,0,,,,,,
+Western,405,Law School,1,3,0,,,,,,
+Western,406,Lawson Hall,1,3,0,,,,,,
+Western,407,Material Sciences Addition,1,3,0,,,,,,
+Western,408,McIntosh Art Gallery,1,3,0,,,,,,
+Western,409,Medical Sciences Building,1,3,0,,,,,,
+Western,410,Middlesex College,1,3,0,,,,,,
+Western,411,Music Building,1,3,0,,,,,,
+Western,412,Natural Sciences Building,1,3,0,,,,,,
+Western,413,North Campus Building,1,3,0,,,,,,
+Western,414,Physics Building,1,3,0,,,,,,
+Western,415,Richard Ivey Building,1,3,0,,,,,,
+Western,416,Ronald D. Schmeichel Building for Entrepreneurship and Innovation,1,3,0,,,,,,
+Western,417,Siebens Centre,1,3,0,,,,,,
+Western,418,Social Science Center,1,3,0,,,,,,
+Western,419,Somerville House,1,3,0,,,,,,
+Western,420,Spencer Engineering Building,1,3,0,,,,,,
+Western,421,Staging Building,1,3,0,,,,,,
+Western,422,Stevenson Hall,1,3,0,,,,,,
+Western,423,Support Services Building,1,3,0,,,,,,
+Western,424,Talbot College,1,3,0,,,,,,
+Western,425,Thames Hall,1,3,0,,,,,,
+Western,426,"The Frank Holmes Centre for Leadership, Ethics & Entrepreneurship",1,3,0,,,,,,
+Western,427,Thompson Arena,1,3,0,,,,,,
+Western,428,Thompson Engineering Building,1,3,0,,,,,,
+Western,429,University College,1,3,0,,,,,,
+Western,431,Weldon Library,1,3,0,,,,,,
+Western,432,West Valley Building,1,3,0,,,,,,
+Western,433,Western Science Centre,1,3,0,,,,,,
+Western,434,Western Student Recreation Centre,1,3,0,,,,,,
+Western,435,Western Student Services Building,1,3,0,,,,,,

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CWRGE</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f1e;
+      color: #e0e0e0;
+    }
+
+    #map {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      z-index: 1;
+    }
+
+    .panel {
+      position: absolute;
+      background: rgba(15, 15, 30, 0.95);
+      border: 1px solid #444;
+      border-radius: 8px;
+      padding: 16px;
+      font-size: 14px;
+      z-index: 1000;
+      backdrop-filter: blur(8px);
+    }
+
+    .panel h2 {
+      font-size: 16px;
+      margin-bottom: 12px;
+      color: #fff;
+    }
+
+    .panel select, .panel button {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 8px;
+      background: #1a1a2e;
+      border: 1px solid #444;
+      color: #e0e0e0;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+
+    .panel select:hover, .panel button:hover {
+      border-color: #00d9ff;
+      background: #252541;
+    }
+
+    .campus-switcher {
+      top: 12px;
+      left: 12px;
+      width: 240px;
+    }
+
+    .legend {
+      top: 12px;
+      right: 12px;
+      width: 240px;
+      max-height: 60vh;
+      overflow-y: auto;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 6px;
+      font-size: 12px;
+    }
+
+    .legend-swatch {
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      margin-right: 8px;
+      border: 1px solid rgba(255,255,255,0.3);
+    }
+
+    .popup-title { font-weight: bold; color: #00d9ff; margin-bottom: 4px; }
+    .popup-row { margin: 2px 0; font-size: 12px; }
+    .popup-label { color: #aaa; }
+
+    .status-bar {
+      position: absolute;
+      bottom: 12px;
+      left: 12px;
+      right: 12px;
+      background: rgba(15, 15, 30, 0.95);
+      border: 1px solid #444;
+      padding: 12px;
+      border-radius: 4px;
+      font-size: 12px;
+      display: flex;
+      justify-content: space-between;
+      z-index: 1000;
+    }
+
+    .loading {
+      display: none;
+      color: #ffa500;
+    }
+
+    .leaflet-popup-content { color: #333; }
+    .leaflet-popup-content-wrapper { background: #f9f9f9; border-radius: 6px; }
+
+    .node-label {
+      background: transparent;
+      border: none;
+      box-shadow: none;
+      font-size: 10px;
+      font-weight: 600;
+      color: #222;
+      text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
+      padding: 0;
+      white-space: nowrap;
+      pointer-events: none;
+    }
+    .node-label::before { display: none; }
+  </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<div class="panel campus-switcher">
+  <h2>CWRGE</h2>
+  <select id="campusSelect" onchange="switchCampus()">
+    <option value="overview">Overview</option>
+    <option value="British Columbia">British Columbia</option>
+    <option value="Alberta">Alberta</option>
+    <option value="Waterloo">Waterloo</option>
+    <option value="Ontario Tech">Ontario Tech</option>
+    <option value="Western">Western</option>
+    <option value="McMaster">McMaster</option>
+    <option value="Toronto">Toronto</option>
+  </select>
+  <button onclick="resetZoom()">Reset</button>
+  <div class="loading" id="loadStatus">Loading...</div>
+</div>
+
+<div class="panel legend">
+  <h2>Teams</h2>
+  <div id="legendContent"></div>
+</div>
+
+<div class="status-bar">
+  <span id="statusLeft"></span>
+  <span id="statusRight"></span>
+</div>
+
+<script>
+
+const TEAMS = [
+  { name: "British Columbia",         color: "#ff6b6b", initial_campus: "British Columbia" },
+  { name: "Alberta",     color: "#4ecdc4", initial_campus: "Alberta" },
+  { name: "Waterloo",    color: "#ffd93d", initial_campus: "Waterloo" },
+  { name: "Ontario Tech",color: "#6bcf7f", initial_campus: "Ontario Tech" },
+  { name: "Western",     color: "#9d84b7", initial_campus: "Western" },
+  { name: "McMaster",    color: "#ff9999", initial_campus: "McMaster" },
+  { name: "Toronto",      color: "#66d9ff", initial_campus: "Toronto" },
+  { name: "Neutral",     color: "#999999", initial_campus: null },
+];
+
+let CAMPUS_CENTERS = {};
+let CAMPUS_EXTENTS = {};
+let OVERVIEW_BOUNDS = [[42.5, -125], [54.5, -77]];
+
+let buildings = null, paths = null, centroids = null, charts = {}, state = {}, map = null;
+let buildingFillLayer = null, nodeLayer = null, pathLayer = null, hubLayer = null;
+
+let buildingNames = {};
+
+async function loadData() {
+  const load = document.getElementById("loadStatus");
+  load.style.display = "block";
+  load.textContent = "Loading map data...";
+
+  try {
+    const bRes = await fetch("./data/buildings.geojson").catch(() => ({ ok: false }));
+    const pRes = await fetch("./data/paths.geojson").catch(() => ({ ok: false }));
+    const ctRes = await fetch("./data/centroids.geojson").catch(() => ({ ok: false }));
+
+    const cRes = await fetch("./data/chart_assignments.csv").catch(() => ({ ok: false }));
+    const sRes = await fetch("https://docs.google.com/spreadsheets/d/1_jmmV7BfdFA5yo5PaJ65j9KAv4GMxA-W6VOI2rP0l7c/export?format=csv&gid=0").catch(() => ({ ok: false }));
+
+    if (bRes.ok) buildings = await bRes.json();
+    if (pRes.ok) paths = await pRes.json();
+    if (ctRes.ok) centroids = await ctRes.json();
+
+    if (buildings) {
+      buildings.features.forEach(f => {
+        const p = f.properties;
+        if (p.Name) {
+          buildingNames[`${p.Campus}|${p.Num}`] = String(p.Name).trim();
+        }
+      });
+    }
+    
+    if (cRes.ok) {
+      const csv = await cRes.text();
+      Papa.parse(csv, {
+        header: true,
+        complete: (results) => {
+          results.data.forEach(row => {
+            const k = `${row.campus}|${row.num}`;
+            charts[k] = row;
+          });
+        }
+      });
+    }
+
+    if (sRes.ok) {
+      const csv = await sRes.text();
+      Papa.parse(csv, {
+        header: true,
+        complete: (results) => {
+          results.data.forEach(row => {
+            const k = `${row.campus}|${row.num}`;
+            state[k] = row;
+          });
+        }
+      });
+    }
+
+    if (!centroids && !buildings) {
+      console.warn("no geometry files found, using demo data");
+      centroids = {
+        type: "FeatureCollection",
+        features: [
+          {
+            type: "Feature",
+            properties: { Campus: "Waterloo", Num: 1, Name: "Demo Building" },
+            geometry: { type: "Point", coordinates: [-80.4932, 43.4705] }
+          }
+        ]
+      };
+    }
+
+    computeCampusGeography();
+
+    const nodeCount = (centroids || buildings).features.length;
+    const chartCount = Object.keys(charts).length;
+    load.textContent = chartCount > 0
+      ? `Loaded ${nodeCount} nodes, ${chartCount} chart assignments`
+      : `Loaded ${nodeCount} nodes (charts not assigned yet)`;
+    setTimeout(() => { load.style.display = "none"; }, 2500);
+  } catch (err) {
+    load.textContent = "Error loading data (using demo mode)";
+    console.error(err);
+  }
+
+  initMap();
+}
+
+function computeCampusGeography() {
+  const source = centroids || buildings;
+  if (!source) return;
+
+  const byCampus = {};
+  source.features.forEach(feat => {
+    const campus = feat.properties && feat.properties.Campus;
+    const pt = firstCoord(feat.geometry);
+    if (!campus || !pt) return;
+    (byCampus[campus] = byCampus[campus] || []).push(pt);
+  });
+
+  const allLats = [], allLngs = [];
+  Object.entries(byCampus).forEach(([campus, pts]) => {
+    const lats = pts.map(p => p[1]);
+    const lngs = pts.map(p => p[0]);
+    const minLat = Math.min(...lats), maxLat = Math.max(...lats);
+    const minLng = Math.min(...lngs), maxLng = Math.max(...lngs);
+    const padLat = Math.max((maxLat - minLat) * 0.15, 0.002);
+    const padLng = Math.max((maxLng - minLng) * 0.15, 0.002);
+
+    CAMPUS_EXTENTS[campus] = [
+      [minLat - padLat, minLng - padLng],
+      [maxLat + padLat, maxLng + padLng],
+    ];
+    CAMPUS_CENTERS[campus] = [(minLat + maxLat) / 2, (minLng + maxLng) / 2];
+    allLats.push(minLat, maxLat);
+    allLngs.push(minLng, maxLng);
+  });
+
+  if (allLats.length) {
+    OVERVIEW_BOUNDS = [
+      [Math.min(...allLats) - 1, Math.min(...allLngs) - 1],
+      [Math.max(...allLats) + 1, Math.max(...allLngs) + 1],
+    ];
+  }
+}
+
+function firstCoord(geom) {
+  if (!geom) return null;
+  const t = geom.type, c = geom.coordinates;
+  if (t === "Point") return c;
+  if (t === "MultiPoint" || t === "LineString") return c[0];
+  if (t === "Polygon") return c[0][0];
+  if (t === "MultiPolygon") return c[0][0][0];
+  return null;
+}
+
+function initMap() {
+  map = L.map("map").setView([52, -106], 4);
+  
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: "© OpenStreetMap contributors",
+    maxZoom: 19,
+  }).addTo(map);
+
+  if (buildings && buildings.features.length &&
+      buildings.features[0].geometry.type !== "Point") {
+    buildingFillLayer = L.geoJSON(buildings, {
+      style: buildingFillStyle,
+      interactive: false,
+    }).addTo(map);
+  }
+
+  if (paths) {
+    pathLayer = L.geoJSON(paths, {
+      style: { color: "#555", weight: 2, opacity: 0.6 },
+      interactive: false,
+    }).addTo(map);
+  }
+
+  const nodeSource = centroids || buildings || { type: "FeatureCollection", features: [] };
+  nodeLayer = L.geoJSON(nodeSource, {
+    pointToLayer: buildingMarker,
+    onEachFeature: buildingPopup,
+  }).addTo(map);
+
+  drawHubConnections();
+  updateLegend();
+}
+
+function buildingFillStyle(feat) {
+  const props = feat.properties;
+  const key = `${props.Campus}|${props.Num}`;
+  const st = state[key] || {};
+  const owner = st.owner || null;
+  const teamColor = owner ? (TEAMS.find(t => t.name === owner)?.color || "#999") : "#555";
+  return {
+    fillColor: teamColor,
+    fillOpacity: owner ? 0.35 : 0.18,
+    color: teamColor,
+    weight: 1,
+    opacity: owner ? 0.6 : 0.3,
+  };
+}
+
+function buildingMarker(feat, latlng) {
+  const props = feat.properties;
+  const key = `${props.Campus}|${props.Num}`;
+  const st = state[key] || {};
+  const owner = st.owner || null;
+  const teamColor = owner ? (TEAMS.find(t => t.name === owner)?.color || "#999") : "#ccc";
+
+  const marker = L.circleMarker(latlng, {
+    radius: 6,
+    fillColor: teamColor,
+    color: owner ? "#fff" : "#666",
+    weight: owner ? 2 : 1,
+    opacity: owner ? 1 : 0.7,
+    fillOpacity: 0.8,
+  });
+
+  marker.on("popupopen", () => {
+    marker.setRadius(8);
+  });
+  marker.on("popupclose", () => {
+    marker.setRadius(6);
+  });
+
+  marker.bindTooltip(String(props.Num), {
+    permanent: false,
+    direction: "top",
+    offset: [0, 0],
+    className: "node-label",
+  });
+
+  return marker;
+}
+
+function buildingPopup(feat, layer) {
+  const props = feat.properties;
+  const key = `${props.Campus}|${props.Num}`;
+  const ch = charts[key] || {};
+  const st = state[key] || {};
+
+  const name = buildingNames[key] || props.Name?.trim() || "Unknown";
+  let html = `<div class="popup-title">${props.Num} — ${name}</div>`;
+  html += `<div class="popup-row"><span class="popup-label">Campus:</span> ${props.Campus}</div>`;
+  
+  if (ch.song) {
+    html += `<div class="popup-row"><span class="popup-label">Song:</span> ${ch.song}</div>`;
+    html += `<div class="popup-row"><span class="popup-label">Chart:</span> ${ch.chart || "?"} · ${ch.game || "?"}</div>`;
+    html += `<div class="popup-row"><span class="popup-label">Platform:</span> ${ch.platform || "?"} · Tier ${ch.tier || "?"}</div>`;
+  } else {
+    html += `<div class="popup-row"><span class="popup-label">Chart:</span> Unassigned</div>`;
+  }
+
+  if (st.owner) {
+    html += `<div class="popup-row"><span class="popup-label">Owner:</span> <strong>${st.owner}</strong></div>`;
+    html += `<div class="popup-row"><span class="popup-label">Score:</span> ${st.score || "N/A"}</div>`;
+    html += `<div class="popup-row"><span class="popup-label">Captured:</span> ${st.capture_date || "?"}</div>`;
+  } else {
+    html += `<div class="popup-row"><span class="popup-label">Owner:</span> Uncaptured</div>`;
+  }
+
+  layer.bindPopup(html);
+}
+
+function drawHubConnections() {
+  if (!hubLayer) {
+    hubLayer = L.featureGroup().addTo(map);
+  } else {
+    hubLayer.clearLayers();
+  }
+
+  const centers = Object.entries(CAMPUS_CENTERS);
+  for (let i = 0; i < centers.length; i++) {
+    for (let j = i + 1; j < centers.length; j++) {
+      const [c1, [lat1, lng1]] = centers[i];
+      const [c2, [lat2, lng2]] = centers[j];
+      L.polyline(
+        [[lat1, lng1], [lat2, lng2]],
+        { color: "#666", weight: 1, opacity: 0.3, dashArray: "5, 5" }
+      ).addTo(hubLayer);
+    }
+  }
+}
+
+function switchCampus() {
+  const sel = document.getElementById("campusSelect").value;
+  if (sel === "overview") {
+    resetZoom();
+  } else {
+    const bounds = CAMPUS_EXTENTS[sel];
+    if (bounds) map.fitBounds(bounds);
+  }
+}
+
+function resetZoom() {
+  map.fitBounds(OVERVIEW_BOUNDS);
+  document.getElementById("campusSelect").value = "overview";
+}
+
+function updateLegend() {
+  let html = "";
+  TEAMS.forEach(team => {
+    html += `
+      <div class="legend-item">
+        <div class="legend-swatch" style="background: ${team.color}"></div>
+        <span>${team.name}</span>
+      </div>
+    `;
+  });
+  document.getElementById("legendContent").innerHTML = html;
+}
+
+function updateStatus() {
+  const nodeSource = centroids || buildings;
+  const total = nodeSource ? nodeSource.features.length : 0;
+  const chartCount = Object.keys(charts).length;
+  const captured = Object.values(state).filter(s => s.owner).length;
+
+  document.getElementById("statusLeft").textContent = chartCount > 0
+    ? `${captured} / ${total} captured · ${chartCount} charts assigned`
+    : `${total} nodes loaded · charts not yet assigned`;
+
+  const byTeam = {};
+  TEAMS.forEach(t => byTeam[t.name] = 0);
+  Object.values(state).forEach(s => {
+    if (s.owner && s.owner in byTeam) byTeam[s.owner]++;
+  });
+  const leader = Object.entries(byTeam).sort((a, b) => b[1] - a[1])[0];
+  document.getElementById("statusRight").textContent = 
+    leader ? `${leader[0]}: ${leader[1]}` : "No leader yet";
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  loadData();
+  setInterval(updateStatus, 1000);
+});
+</script>
+
+</body>
+</html>

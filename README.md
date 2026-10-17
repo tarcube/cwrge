@@ -6,7 +6,7 @@
 - It's like any other territory takeover game (so JetLagTG challenge coded)
 
 ## Link to Github Pages (Webapp)
-- TBA/WIP
+- https://tarcube.github.io/cwrge/cwrge_map.html
 
 ## TODO:
 - Add McGill and York campuses (I can't find any building shapefiles)
@@ -15,6 +15,9 @@
 - List actual home/host buildings (I used random ones for the demo)
 - Poll a list of charts from various rhythm games to actually assign to nodes (and not ai gen ones)
 - Refine the rules for powerups/economy
+- Adding a dashboard that shows team's stamina, notes, lives, and pending declarations
+- Timeline scrubber that can rewind the map to see territory progression day by day
+- Leaderboard that ranks teams by buildings controlled, scores submitted, or notes generated
 - Set a timeline of events before Halloween to be able to actually host this in November this term.
 - Advertise to club members
 

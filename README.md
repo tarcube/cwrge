@@ -21,12 +21,6 @@
 - Set a timeline of events before Halloween to be able to actually host this in November this term.
 - Advertise to club members
 
-## CWRGE Documents (Google Forms Poll & Sheets & Proposal Slide)
-- https://forms.gle/D3NLeuScQ1QhZmPk8
-- https://docs.google.com/spreadsheets/d/1_jmmV7BfdFA5yo5PaJ65j9KAv4GMxA-W6VOI2rP0l7c/edit?usp=sharing
-- https://docs.google.com/presentation/d/14L-P4mPpZ3V87ciWbcS-CZEl7-enOFKchh0lpccSvsA/edit?usp=sharing
-- Add Discord link once the event is confirmed
-
 ## Updating territory during the event
 
 1. Open Google Sheet
@@ -34,12 +28,3 @@
 3. Update existing rows if recaptured
 4. Users refresh the map for the changes appear
 5. No need to git push because the sheet is the source of truth.
-
-## List of Universities (that have at least one executive volunteer to be a representative)
-- [University of Toronto](https://www.utoronto.ca/)
-- [University of British Columbia](https://www.ubc.ca/)
-- [Waterloo University](https://uwaterloo.ca/)
-- [McMaster University](https://www.mcmaster.ca/)
-- [Western University](https://www.uwo.ca/index.html)
-- [University of Alberta](https://www.ualberta.ca/en/index.html)
-- [Ontario Tech University](https://ontariotechu.ca/)

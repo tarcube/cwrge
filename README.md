@@ -21,9 +21,10 @@
 - Set a timeline of events before Halloween to be able to actually host this in November this term.
 - Advertise to club members
 
-## CWRGE Documents (Google Forms Poll & Sheets)
+## CWRGE Documents (Google Forms Poll & Sheets & Proposal Slide)
 - https://forms.gle/D3NLeuScQ1QhZmPk8
 - https://docs.google.com/spreadsheets/d/1_jmmV7BfdFA5yo5PaJ65j9KAv4GMxA-W6VOI2rP0l7c/edit?usp=sharing
+- https://docs.google.com/presentation/d/14L-P4mPpZ3V87ciWbcS-CZEl7-enOFKchh0lpccSvsA/edit?usp=sharing
 - Add Discord link once the event is confirmed
 
 ## Updating territory during the event
